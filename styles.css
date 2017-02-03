@@ -1,70 +1,112 @@
 body {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f51b5+0,5c6bc0+69,7986cb+100 */
-  background: #3f51b5; /* Old browsers */
-  background: -moz-linear-gradient(top,  #3f51b5 0%, #5c6bc0 69%, #7986cb 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #3f51b5 0%,#5c6bc0 69%,#7986cb 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #3f51b5 0%,#5c6bc0 69%,#7986cb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f51b5', endColorstr='#7986cb',GradientType=0 ); /* IE6-9 */
-
   color: white;
-  text-shadow: 1px 1px 1px black;
-}
-.gpbadge {
-  width: 300px;
-  margin-top: 50px;
+  font-family: 'verdana';
 }
 
-.app-pic {
-  width: 240px;
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #124b62, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #124b62, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #124b62, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #124b62, #f0f0f0);
 }
 
-.app-feature-pic {
-  width: 300px;
-  margin: auto;
-  display: block;
+.hide-overflow {
+  overflow: hidden;
 }
 
-.right-image {
-  margin-left: -60px;
-  margin-bottom: 40px;
+.fullheight {
+  height: 100%;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  height: 100%
+.BackgroundVideo {
+  width: 100%;
+  height: 120%;
+  position: absolute;
 }
 
-.container > div {
-  flex: 1;
-}
-
-.appName {
-  font-size: 60px;
-}
-
-.appDescription {
-  margin-top: 30px;
-  font-size: 30px;
-}
-
-.featureDescription {
-  font-size: 20px;
-}
-
-.featureTitle {
-  font-size: 45px;
-  margin-bottom: 30px;
-}
-
-.featureDataContainer {
+.infoContainer {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+}
+
+.AppName-Row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.AppName-Row-Title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #124b62;
+}
+
+.AppDescription {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #96a6ae;
 }
 
 .appIcon {
   width: 100px;
-  margin-bottom: 40px;
+  height: 100px;
+}
+
+.GpBadge-Container {
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.GpBadge {
+  height: 100px;
+}
+
+.MainLandingPhones-Container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.AppFeatureImageContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.FeatureCol {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.FeatureTitle {
+  font-size: 40px;
+  color: #124b62;
+}
+
+.FeatureInfo {
+  margin-top: 40px;
+  font-size: 24px;
+  color: #96a6ae;
+}
+
+.FooterSection img {
+  margin: 24px auto;
+}
+
+.FooterSection > .GpBadgeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.FooterSection .GpBadge {
+  height: 100px;
 }
