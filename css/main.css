@@ -1,0 +1,8 @@
+@import "./screen1.css";
+@import "./screen2.css";
+@import "./utils.css";
+@import "./footerSection.css";
+
+body {
+  background-image: url("../images/background_shapes.png");
+}

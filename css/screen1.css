@@ -1,0 +1,45 @@
+.screen1 {
+  height: 100vh;
+}
+
+.screen1 .infoContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen1 .appIcon {
+  width: 15rem;
+  margin-bottom: 3rem;
+}
+
+.screen1 .title {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.screen1 .description {
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.screen1 .playStoreBadge {
+  width: 25rem;
+  margin: 2rem 0;
+}
+
+.screen1 .phonesContainer {
+  height: 100%;
+  display: flex;
+}
+
+.screen1 .phonesInner {
+  align-self: flex-end;
+}
+
+.screen1 .phonesImage {
+  width: 100%;
+}

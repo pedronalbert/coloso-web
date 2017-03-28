@@ -1,0 +1,35 @@
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footerSection > .sectionContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 5rem;
+  color: #124b62;
+}
+
+.footerSection > .sectionContainer > .gpBadgeContainer {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footerSection .playStoreBadge {
+  width: 25rem;
+}
+
+@media (max-width: 768px) {
+  .footerSection > .sectionContainer {
+    font-size: 4rem;
+  }
+
+  .footerSection .playStoreBadge {
+    width: 20rem;
+  }
+}

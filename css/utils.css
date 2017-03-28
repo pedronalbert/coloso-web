@@ -1,0 +1,50 @@
+.fullHeight {
+  height: 100vh;
+  display: flex;
+}
+
+section {
+  height: 100vh;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.80);
+  padding: 1.2rem;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  height: 100%;
+}
+
+.featureImageCol {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureImage {
+  width: 100%;
+}
+
+.featureInfoCol {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.featureTitle {
+  font-size: 3.5rem;
+  margin: 1.5rem 0rem;
+  color: #124b62;
+  font-weight: bold;
+}
+
+.featureDescription {
+  font-size: 2rem;
+  text-align: justify;
+}

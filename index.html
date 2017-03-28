@@ -2,87 +2,107 @@
 <html>
   <head>
     <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/onepage-scroll/1.3.1/onepage-scroll.min.css">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/main.css">
     <meta property="og:title" content="Coloso" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://pedronalbert.github.io/coloso-web/images/oglarge.png" />
     <meta property="og:url" content="https://pedronalbert.github.io/coloso-web" />
     <meta property="og:description" content="Coloso es una herramienta para League of Legends que te permite consultar estadisticas, juegos en curso, builds profesionales y mucho más.">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coloso - Herramienta para League of Legends</title>
     <meta name="description" content="Coloso es una herramienta para League of Legends que te permite consultar estadisticas, juegos en curso, builds profesionales y mucho más.">
   </head>
   <body>
     <div class="main">
-      <section class="hide-overflow">
-        <div class="container fullheight">
-          <div class="col-md-6 infoContainer">
-            <div class="AppName-Row">
-              <h1 class="AppName-Row-Title">Coloso</h1>
-            </div>
-            <h1 class="AppDescription">Tu mejor herramienta para League of Legends, consulta estadisticas, juegos en curso, builds profesionales y mucho más.</h1>
-
-            <div class="GpBadge-Container">
-              <a href='https://play.google.com/store/apps/details?id=com.pedronalbert.lolcena&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                <img class="GpBadge" alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/es_badge_web_generic.png'/>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6 MainLandingPhones-Container">
-            <img src="./images/landing-phones-1.png" class="img-responsive">
-          </div>
-      </section>
-      <section>
-        <div class="container fullheight">
-          <div class="col-md-7 AppFeatureImageContainer">
-            <img class="img-responsive" src="./images/landing-phones-3.png">
-          </div>
-          <div class="col-md-5 FeatureCol">
-            <h2 class="FeatureTitle">Juegos en Tiempo Real</h2>
-            <hr>
-            <p class="FeatureInfo">Busca tu partida en tiempo real, consulta la información de tus oponentes, liga, runas, maestrias, victorias, derrotas, accede al perfil de tus oponentes y consulta toda la información necesaria antes de la batalla, accede a las builds profesionales para tu campeón.</p>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container fullheight">
-          <div class="col-md-5 FeatureCol">
-            <h2 class="FeatureTitle">Builds de Jugadores Profesionales</h2>
-            <hr>
-            <p class="FeatureInfo">Coloso recopila información de las ultimas partidas de los jugadores profesionales, podras acceder a dichas builds ver el orden de compra, prioridad de habilidades, runas y maestrias de jugadores de alto nivel.</p>
-          </div>
-          <div class="col-md-7 AppFeatureImageContainer">
-            <img class="img-responsive" src="./images/landing-phones-2.png">
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container fullheight">
-          <div class="col-md-7 AppFeatureImageContainer">
-            <img class="img-responsive" src="./images/landing-phones-4.png">
-          </div>
-          <div class="col-md-5 FeatureCol">
-            <h2 class="FeatureTitle">Información Completa de Jugadores</h2>
-            <hr>
-            <p class="FeatureInfo">Consulta toda la información encesaria de algun jugador, posicion en liga clasificatoria, paginas de runas, paginas de maestria, maestria con campeones, estadísticas completas.</p>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container fullheight FooterSection">
-          <img src="./images/landing-phones-1.png" class="img-responsive">
-          <div class="GpBadgeContainer">
-            <a href='https://play.google.com/store/apps/details?id=com.pedronalbert.lolcena&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-              <img class="GpBadge" alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/es_badge_web_generic.png'/>
+      <section class="screen1">
+        <div class="container">
+          <div class="col-md-5 infoContainer">
+            <img class="appIcon" src="./images/appicon.png" alt="AppIcon">
+            <p class="title">Bienvenido a Coloso</p>
+            <p class="description">Tu mejor herramienta para League of Legends, consulta estadisticas, juegos en curso, builds profesionales y mucho más</p>
+            <a href='https://play.google.com/store/apps/details?id=com.pedronalbert.lolcena&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'  target="_blank">
+              <img class="playStoreBadge" alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/es_badge_web_generic.png'/>
             </a>
           </div>
+          <div class="hidden-xs hidden-sm col-md-7 phonesContainer">
+            <div class="phonesInner">
+              <img class="phonesImage" src="./images/landing_phones_01.png">
+            </div>
+          </div>
         </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="hidden-xs hidden-sm col-md-8 featureImageCol">
+            <div class="featureImageContainer">
+              <img class="featureImage" src="./images/desktop_phone_game_current.png">
+            </div>
+          </div>
+
+          <div class="col-md-4 featureInfoCol">
+            <p class="featureTitle">Oponentes</p>
+            <p class="featureDescription">Mientras estas esperando en la pantalla de carga podras visualizar informacion completa de tus oponentes, liga, runas, maestrias, victorias, derrotas, KDA...</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="col-md-5 featureInfoCol">
+            <p class="featureTitle">Builds Profesionales</p>
+            <p class="featureDescription">Coloso recopila constantemente información de las ultimas partidas clasificatorias de los jugadores profesionales, podras acceder a dichas builds ver el orden de compra, prioridad de habilidades, runas y maestrias de jugadores de alto nivel.</p>
+          </div>
+
+          <div class="hidden-xs hidden-sm col-md-7 featureImageCol">
+            <div class="featureImageContainer">
+              <img class="featureImage" src="./images/phones_builds.png">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="hidden-xs hidden-sm col-md-8 featureImageCol">
+            <div class="featureImageContainer">
+              <img class="featureImage" src="./images/phones_profile.png">
+            </div>
+          </div>
+
+          <div class="col-md-4 featureInfoCol">
+            <p class="featureTitle">Pro Builds</p>
+            <p class="featureDescription">Busca tu partida en tiempo real, consulta la información de tus oponentes, liga, runas, maestrias, victorias, derrotas, accede al perfil de tus oponentes y consulta toda la información necesaria antes de la batalla, accede a las builds profesionales para tu campeón.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+          <div class="footerSection">
+            <div class="sectionContainer">
+              <div class="infoContainer">
+                <p>Consíguela Ahora</p>
+                <hr>
+              </div>
+              <div class="badgesContainer">
+                <a href='https://play.google.com/store/apps/details?id=com.pedronalbert.lolcena&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'  target="_blank">
+                  <img class="playStoreBadge" alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/es_badge_web_generic.png'/>
+                </a>
+              </div>
+            </div>
+
+            <footer>
+              <div class="container">
+                <p>Copyright 2017 Alberto Pedron <a href="https://twitter.com/pedronalbert" target="_blank">@pedronalbert</a></p>
+
+                <p>Coloso isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</p>
+              </div>
+            </footer>
+          </div>
       </section>
     </div>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
